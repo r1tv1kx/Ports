@@ -8,15 +8,11 @@ Example: Visiting 192.168.1.1:80 loads a website, while 192.168.1.1:22 connects 
 
 Real-world Analogy: A computer is like an apartment building, with each apartment (port) assigned to a specific service, such as mail delivery (email) or security (remote login). When data arrives, the computer directs it to the right port.
 
-
 ## Types of Ports
 
-Well-Known Ports (0-1023): Used by important services like websites and emails.
-
-Registered Ports (1024-49151): Used by specific applications like databases.
-
-Dynamic/Private Ports (49152-65535): Used temporarily by software or private connections.
-
+- **Well-Known Ports (0-1023):** Used by important services like websites and emails.
+- **Registered Ports (1024-49151):** Used by specific applications like databases.
+- **Dynamic/Private Ports (49152-65535):** Used temporarily by software or private connections.
 
 ## Common Ports and Their Uses
 
@@ -62,6 +58,7 @@ Dynamic/Private Ports (49152-65535): Used temporarily by software or private con
 | 9200        | Elasticsearch     | Search engine service                       |
 | 11211       | Memcached         | High-performance caching system             |
 
+For more reference, visit: [List of TCP and UDP port numbers](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers)
 
 ## How to Scan Ports with Nmap
 
@@ -108,4 +105,3 @@ Security Note: Open ports can be exploited by hackers. If unnecessary ports are 
 ## Conclusion
 
 Ports are essential for communication between computers and services. Keeping track of open ports and securing them is important for a safe and efficient network. Regular scanning and monitoring help prevent security threats.
-
